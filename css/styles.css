@@ -1,0 +1,145 @@
+/*FOR GRADING PLEASE INCLUDE ALL OF THE FILES THAT IS INSIDE 
+THE .ZIP FOLDER IN TO VS CODE*/
+
+/*<!--Please adjust the <link rel="stylesheet" href="styles.css"> 
+    to make sure that the css is displaying properly-->*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: Verdana, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.logo {
+    padding: 3rem;
+    border: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:10%;
+    max-height:10%;
+}
+
+.navbar {
+    border-radius: 25px;
+    border: 1px solid rgb(2, 107, 102);
+    background-color: rgb(2, 107, 102);
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;   
+    font-size: 1rem;
+}
+
+.navbar a{
+    display: inline-block;
+    padding: 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff
+}
+
+.navbar a:hover {
+    background-color: steelblue;
+    box-shadow: 0px 0px 25px steelblue;/**/
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+.promotion {
+    background-size: cover;
+    padding: 2rem;
+    border: 1px solid rgb(2, 107, 102);
+    border-radius: 25px;
+    margin: 1rem;
+    color: #FFFFFF;
+}
+
+.garden{
+    background-color: lightgreen;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid rgb(2, 107, 102);
+    margin: 0 1rem;
+}
+
+.pnursery{
+    background-color: lightskyblue;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid rgb(2, 107, 102);
+    margin: 0 1rem;
+}
+
+.aboutus{
+    background-color: lightcoral;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid rgb(2, 107, 102);
+    margin: 0 1rem;   
+}
+
+.contents .item {
+    display: block;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.contents a:link{
+    color: blue;
+}
+
+.contents a:hover {
+    color: darkviolet;
+}
+
+.contents a:active {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+/*I was not given a smaller image for the footer*/
+.logo_footer {
+    padding: 1rem;
+    border: 2px solid rgb(2, 107, 102);
+    margin: 1rem;
+    max-width: 25%;
+    max-height: 25%;
+  }
+
+.copyright {
+    margin: 1rem;
+}
